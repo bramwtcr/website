@@ -1,0 +1,34 @@
+{
+  "recipes": [
+    {
+      "name": "Grilled Cheese Sandwich",
+      "time": "10 minutes",
+      "ingredients": [
+        "Bread",
+        "Cheddar cheese",
+        "Butter"
+      ]
+    },
+    {
+      "name": "Tomato Soup",
+      "time": "25 minutes",
+      "ingredients": [
+        "Tomatoes",
+        "Onion",
+        "Garlic",
+        "Vegetable broth",
+        "Cream"
+      ]
+    },
+    {
+      "name": "Caesar Salad",
+      "time": "15 minutes",
+      "ingredients": [
+        "Romaine lettuce",
+        "Croutons",
+        "Parmesan",
+        "Caesar dressing"
+      ]
+    }
+  ]
+}
