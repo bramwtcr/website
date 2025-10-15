@@ -1,33 +1,36 @@
 {
   "recipes": [
     {
-      "name": "Grilled Cheese Sandwich",
-      "time": "10 minutes",
-      "ingredients": [
-        "Bread",
-        "Cheddar cheese",
-        "Butter"
-      ]
-    },
-    {
-      "name": "Tomato Soup",
+      "name": "Beef Tacos",
       "time": "25 minutes",
       "ingredients": [
-        "Tomatoes",
-        "Onion",
-        "Garlic",
-        "Vegetable broth",
-        "Cream"
+        "Ground beef",
+        "Taco shells",
+        "Lettuce",
+        "Cheese",
+        "Salsa"
       ]
     },
     {
-      "name": "Caesar Salad",
+      "name": "Vegetable Stir Fry",
       "time": "15 minutes",
       "ingredients": [
-        "Romaine lettuce",
-        "Croutons",
-        "Parmesan",
-        "Caesar dressing"
+        "Bell peppers",
+        "Broccoli",
+        "Carrots",
+        "Soy sauce",
+        "Rice"
+      ]
+    },
+    {
+      "name": "Chocolate Chip Cookies",
+      "time": "30 minutes",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Chocolate chips",
+        "Eggs"
       ]
     }
   ]
