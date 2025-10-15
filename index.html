@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      color: #333;
+      margin: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .recipe {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      background-color: #fff;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+    .recipe h2 {
+      margin-top: 0;
+      color: #e67e22;
+    }
+    .ingredients {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Recipe Menu</h1>
+  <div class="menu" id="menu"></div>
+
+  <script>
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        const menu = document.getElementById('menu');
+        data.recipes.forEach(recipe => {
+          const item = document.createElement('div');
+          item.className = 'recipe';
+          item.innerHTML = `
+            <h2>${recipe.name}</h2>
+            <p><strong>Cooking Time:</strong> ${recipe.time}</p>
+            <p><strong>Ingredients:</strong></p>
+            <ul class="ingredients">
+              ${recipe.ingredients.map(ing => `<li>${ing}</li>`).join('')}
+            </ul>
+          `;
+          menu.appendChild(item);
+        });
+      })
+      .catch(error => console.error('Error loading data:', error));
+  </script>
+</body>
+</html>
