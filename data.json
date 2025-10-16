@@ -1,36 +1,36 @@
 {
   "recipes": [
     {
-      "name": "Beef Tacos",
+      "name": "Vegetable Stir Fry",
       "time": "25 minutes",
+      "ingredients": [
+        "Broccoli",
+        "Carrots",
+        "Bell peppers",
+        "Soy sauce",
+        "Ginger"
+      ]
+    },
+    {
+      "name": "Beef Tacos",
+      "time": "20 minutes",
       "ingredients": [
         "Ground beef",
         "Taco shells",
         "Lettuce",
-        "Cheese",
+        "Cheddar cheese",
         "Salsa"
       ]
     },
     {
-      "name": "Vegetable Stir Fry",
-      "time": "15 minutes",
+      "name": "Mango Smoothie",
+      "time": "10 minutes",
       "ingredients": [
-        "Bell peppers",
-        "Broccoli",
-        "Carrots",
-        "Soy sauce",
-        "Rice"
-      ]
-    },
-    {
-      "name": "Chocolate Chip Cookies",
-      "time": "30 minutes",
-      "ingredients": [
-        "Flour",
-        "Sugar",
-        "Butter",
-        "Chocolate chips",
-        "Eggs"
+        "Mango",
+        "Yogurt",
+        "Honey",
+        "Ice cubes",
+        "Mint leaves"
       ]
     }
   ]
